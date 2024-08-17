@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Library Project</title>
+    <link rel="stylesheet" href="main_style.css">
+</head>
+<body>
+<div id="main">
+    <div id="header">
+        <div id="lib_name">
+            <h1>Sample Library</h1>
+        </div>
+        <div id="login">
+            Login
+        </div>
+    </div>
+    <div id="menu" class="boxes">
+    This is the home page of this website. Created by Sohom Shaw
+    </div>
+    <div id="content">
+        <div id="books" class="boxes">
+        <% books.forEach(function(book) { %>
+            <div class="icons boxes">
+                <a href="/details?id=<%= book.id %>">
+                    <%= book.name %>
+                </a><br>
+                by <%= book.author %>
+            </div>
+        <% }); %>
+        </div>
+        <div id="news" class="boxes">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    font-size: 1.5rem;
+}
+#main {
+    min-width: 900px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+}
+h1 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+#login {
+    margin: auto 0;
+}
+#menu {
+    margin-bottom: 0.75em;
+}
+#content {
+    display: flex;
+    height: 20em;
+}
+#books {
+    flex-grow: 2.5;
+    flex-basis: 0;
+    display: flex;
+}
+.icons {
+    height: 10em;
+}
+#news {
+    flex-grow: 1;
+}
+.boxes {
+    border: 0cap;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
